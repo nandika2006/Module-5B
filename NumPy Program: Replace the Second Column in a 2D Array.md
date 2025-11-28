@@ -10,10 +10,18 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 4. **Insert Column**: Use `np.insert()` to insert the new column at the second column's original position.
 5. **Display Result**: Print the updated array with the replaced column.
 
-## 🧾 Program
+## 🧾 Program :
 
-Add code here
+    import numpy as np
+    arr = np.array(eval(input()))
+    a=arr.reshape(4,3)
+    column_sums=sum(a[:,1])
+    print(a)
+    print(column_sums)
 
-## Output
+## Output :
+<img width="1095" height="494" alt="image" src="https://github.com/user-attachments/assets/f792ba35-f4f8-406b-b371-8c936a7d17ef" />
 
-## Result
+
+## Result :
+Thus the python program to find the sum of Second column in a given numpy array is executed successfully.
