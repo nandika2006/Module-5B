@@ -16,10 +16,22 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 
 ---
 
-## 💻 Program
+## 💻 Program :
 
-Add code here
+    import pandas as pd
+    d=eval(input())
+    df=pd.DataFrame(d)
+    print("Original Dataframe",end='\n ')
+    print(df)
+    new=eval(input())
+    df.loc[len(df)]=new
+    print("combined Dataframe",end='\n ')
+    print(df)
 
-## Output
+## Output :
 
-## Result
+<img width="1176" height="892" alt="image" src="https://github.com/user-attachments/assets/0bc6ddc2-a4e4-4229-8115-e3cc4eacb7ae" />
+
+
+## Result :
+Thus the Python program using Pandas to join two DataFrames along rows is executed successfully.
