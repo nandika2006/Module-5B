@@ -11,9 +11,23 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 4. **Store Result**: Store the sorted result in a new array.
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
-## 🧾 Program
-Add code here
+## 🧾 Program :
 
-## Output
+    import numpy as np
+    a = np.array(eval(input()))
+    print("Printing Original array")
+    print(a)
+    sorted_by_row = a[:, a[1].argsort()]
+    print("Sorting Original array by second row")
+    print(sorted_by_row)
+    sorted_by_col = a[a[:, 1].argsort()]
+    print("Sorting Original array by second column")
+    print(sorted_by_col)
 
-## Result
+## Output :
+
+<img width="1185" height="849" alt="image" src="https://github.com/user-attachments/assets/accc6f5b-e700-4585-9ed1-661aaa7174cc" />
+
+
+## Result :
+Thus the NumPy program that sorts the elements of a given 2D array in ascending order is executed successfully.
